@@ -8,7 +8,6 @@ A PHP function to perform database queries. You just need to pass the MySQL raw 
 - <b>SELECT</b> (Return array or queried data)
 - <b>DELETE</b> (Return boolean true on successfull udpate, false otherwise)
 
-<br>
 
 ## Preview
 
