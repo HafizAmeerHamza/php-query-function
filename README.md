@@ -1,5 +1,5 @@
 <h1 align="center">PHP Query Function</h1>
-A PHP function to perform database queries. You just need to pass the MySQL raw query &amp; database connection.
+A PHP procedural function to perform database queries. You just need to pass the MySQL raw query &amp; database connection.
 
 ### Types
 
