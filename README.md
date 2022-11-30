@@ -1,9 +1,16 @@
 <h1 align="center">PHP Query Function</h1>
-A PHP function to perform database queries.
-INSERT SELECT UPDATE DELETE
-you just need to pass the MySQL query &amp; database connection
+A PHP function to perform database queries. You just need to pass the MySQL raw query &amp; database connection.
 
+### Types
 
+- <b>INSERT</b> (Return last insert ID)
+- <b>UPDATE</b> (Return boolean true on successfull udpate, false otherwise)
+- <b>SELECT</b> (Return array or queried data)
+- <b>DELETE</b> (Return boolean true on successfull udpate, false otherwise)
+
+<br>
+
+## Preview
 
 ```
 
