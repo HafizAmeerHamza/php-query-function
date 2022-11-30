@@ -1,10 +1,12 @@
-# PHP Query Function
+<h1 align="center">PHP Query Function</h1>
 A PHP function to perform database queries.
 INSERT SELECT UPDATE DELETE
 you just need to pass the MySQL query &amp; database connection
 
 
+
 ```
+
 function query($query, $conn = false){
     /* 
     * set the database connection globally
