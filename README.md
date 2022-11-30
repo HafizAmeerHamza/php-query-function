@@ -42,11 +42,11 @@ function query($query, $conn = false){
         return $id;
       }
 		}
-    elseif($query_type == "update" || $query_type == "delete"){
+		elseif($query_type == "update" || $query_type == "delete"){
 			if($result && mysqli_affected_rows($conn)>0)
 				return true;
 		}
-  }
+	}
   return false;
 }
 ```
